@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Kontak | Portofolio</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body data-page="contact.html">
+
+<main>
+  <section class="contact-section">
+    <div class="container contact-container">
+      <header class="contact-intro reveal">
+        <p class="hello">ADA IDE ATAU PELUANG?</p>
+        <h1>Mari <span class="grad">Bekerja Bersama Saya</span></h1>
+        <p class="lead muted">Saya terbuka untuk kolaborasi dan peluang di bidang Quality Assurance, Business Analysis, maupun System Analysis. Pilih cara yang paling nyaman untuk memulai percakapan.</p>
+      </header>
+
+      <div class="contact-grid" aria-label="Pilihan kontak">
+        <a data-link="email" class="card contact-link reveal">
+          <span class="ic mail" aria-hidden="true"><i class="fa-solid fa-envelope"></i></span>
+          <span class="contact-copy"><span class="contact-title">Email</span><span class="muted contact-detail">aisyahhumairohsalsabila07@gmail.com</span></span>
+          <i class="fa-solid fa-arrow-up-right-from-square contact-arrow" aria-hidden="true"></i>
+        </a>
+        <a data-link="wa" class="card contact-link reveal">
+          <span class="ic wa" aria-hidden="true"><i class="fa-brands fa-whatsapp"></i></span>
+          <span class="contact-copy"><span class="contact-title">WhatsApp</span><span class="muted contact-detail">Diskusi singkat dan cepat</span></span>
+          <i class="fa-solid fa-arrow-up-right-from-square contact-arrow" aria-hidden="true"></i>
+        </a>
+        <a data-link="linkedin" class="card contact-link reveal">
+          <span class="ic li" aria-hidden="true"><i class="fa-brands fa-linkedin-in"></i></span>
+          <span class="contact-copy"><span class="contact-title">LinkedIn</span><span class="muted contact-detail">Profil profesional</span></span>
+          <i class="fa-solid fa-arrow-up-right-from-square contact-arrow" aria-hidden="true"></i>
+        </a>
+        <a data-link="github" class="card contact-link reveal">
+          <span class="ic gh" aria-hidden="true"><i class="fa-brands fa-github"></i></span>
+          <span class="contact-copy"><span class="contact-title">GitHub</span><span class="muted contact-detail">Repositori dan proyek</span></span>
+          <i class="fa-solid fa-arrow-up-right-from-square contact-arrow" aria-hidden="true"></i>
+        </a>
+      </div>
+
+      <div class="card contact-form-card reveal">
+        <div>
+          <h2>Tulis pesan</h2>
+          <p class="muted">Form ini akan menyiapkan email melalui aplikasi email di perangkatmu.</p>
+        </div>
+        <form id="mailForm">
+          <div class="form-row">
+            <label>Nama
+              <input name="name" type="text" placeholder="Nama kamu" autocomplete="name" maxlength="100" required>
+            </label>
+            <label>Subjek
+              <input name="subject" type="text" placeholder="Contoh: Kolaborasi proyek" maxlength="150" required>
+            </label>
+          </div>
+          <label>Pesan
+            <textarea name="message" rows="5" placeholder="Ceritakan kebutuhan atau ide yang ingin dibahas..." required></textarea>
+          </label>
+          <div class="form-submit">
+            <button class="btn" type="submit"><i class="fa-solid fa-paper-plane" aria-hidden="true"></i> Buka aplikasi email</button>
+            <span class="muted form-note">Pesan tidak dikirim otomatis.</span>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
